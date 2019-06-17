@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.example.android.MRVC.man_mode">
+        <item
+            android:id="@+id/action_settings"
+
+            android:icon="@android:drawable/ic_menu_edit"
+            android:onClick="man_mode_method"
+            android:orderInCategory="10"
+            android:title="Manager Mode" />
+        <item
+            android:id="@+id/app_bar_search"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:onClick="databasemode"
+
+            android:orderInCategory="20"
+            android:title="Database Changer Mode"
+            app:actionViewClass="android.widget.SearchView" ></item>
+        <item
+            android:orderInCategory="11"
+            android:title="User Mode"
+            android:onClick="user_layout"/>
+    </menu>

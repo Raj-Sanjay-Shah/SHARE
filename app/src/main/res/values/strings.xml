@@ -1,0 +1,22 @@
+<resources>
+    <string name="toast_message">Welcome</string>
+    <string name="toast_message1">Reset Login</string>
+    <string name="app_name">MRVC Work Management System</string>
+    <string name="instructions">Place your fingertip on the Home button to verify your identity</string>
+    <string name="fingerprint_image">fingerprint image</string>
+    <string name="password">Password:</string>
+    <string name="welcome_to_mumbai_railway_vikas_corporation">Welcome To Mumbai Railway Vikas Corporation!</string>
+    <string name="login_id">Login ID:</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="login">Login</string>
+    <string name="welcome">Welcome:</string>
+    <string name="logout">LOGOUT</string>
+    <string name="alert_title">Alert!</string>
+    <string name="alert_message">Are you sure you want to logout? All unsaved data shall be lost</string>
+    <string-array name="labels_array">
+        <item>Work a</item>
+        <item>Work b</item>
+        <item>Work c</item>
+        <item>Work d</item>
+    </string-array>
+</resources>
