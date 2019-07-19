@@ -17,7 +17,8 @@
 
             android:orderInCategory="20"
             android:title="Database Changer Mode"
-            app:actionViewClass="android.widget.SearchView" ></item>
+            android:visible="false"
+            app:actionViewClass="android.widget.SearchView"></item>
         <item
             android:orderInCategory="11"
             android:title="User Mode"
