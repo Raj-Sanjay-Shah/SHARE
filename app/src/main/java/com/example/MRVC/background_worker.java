@@ -85,11 +85,11 @@ public class background_worker extends AsyncTask<String,String,String> {
 
     @Override
     protected void onPostExecute(String result) {
-        Toast.makeText(context,result.trim(), Toast.LENGTH_LONG).show();
+        Toast.makeText(context,"Welcome", Toast.LENGTH_LONG).show();
         if(result.indexOf("login success")>0) {
 
             Intent intent = new Intent(context, post_login_page.class);
-            intent.putExtra(EXTRA_MESSAGE, user1);
+            intent.putExtra(EXTRA_MESSAGE, result);
             context.startActivity(intent);
         }
         else

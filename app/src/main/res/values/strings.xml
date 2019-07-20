@@ -14,9 +14,17 @@
     <string name="alert_title">Alert!</string>
     <string name="alert_message">Are you sure you want to logout? All unsaved data shall be lost</string>
     <string-array name="labels_array">
-        <item>Work a</item>
-        <item>Work b</item>
-        <item>Work c</item>
-        <item>Work d</item>
+    <item>FOB</item>
+    <item>MSTP</item>
+</string-array>
+    <string-array name="mstp_array">
+        <item>Concrete</item>
+        <item>Galvanised steel</item>
+        <item>Bracket</item>
     </string-array>
+    <string-array name="fob_array">
+    <item>FOB</item>
+    <item>MSTP</item>
+</string-array>
+
 </resources>
